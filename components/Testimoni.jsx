@@ -60,7 +60,7 @@ const Testimoni = () => {
           <Stack direction={"row"} spacing={"20px"} mt={"30px"}>
             <Image src="https://bit.ly/ryan-florence" w={"50px"} h={"50px"} borderRadius={"150px"} />
             <Heading fontFamily={"Raleway"} fontSize={"18px"} color={"white"} pt={"10px"}>
-              Churly B
+              Churly
             </Heading>
           </Stack>
         </Box>
