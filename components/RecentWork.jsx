@@ -2,7 +2,7 @@ import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
 const RecentWork = () => {
   return (
-    <Box px={"80px"} py={"60px"}>
+    <Box px={{ base: "10px", md: "80px" }} py={{ base: "25px", md: "60px" }}>
       <Flex direction={"column"}>
         <Box px={{ lg: "39px", xl: "270px" }}>
           <Heading fontSize={"34px"} width={{ md: "600px", lg: "800px" }} fontFamily={"Raleway"} textAlign={"center"}>
@@ -28,7 +28,7 @@ const RecentWork = () => {
             </Text>
           </Button>
         </Box>
-        <Box w={{ md: "300px", lg: "445px" }} h={"494px"}>
+        <Box w={{ md: "300px", lg: "445px" }} h={{ base: "400px", md: "494px" }}>
           <Image src="5.png" borderRadius={"10px"} />
           <Heading mt={"40px"} mb={"10px"} fontSize={"24px"} fontFamily={"Raleway"} w={"100%"}>
             User Research

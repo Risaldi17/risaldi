@@ -16,22 +16,22 @@ const Feedback = () => {
         </Box>
       </Flex>
       <Flex direction={"row"} justify={"center"}>
-        <Box w={"400px"}>
+        <Box w={{ base: "210px", md: "400px" }}>
           <FormControl>
-            <FormLabel htmlFor="email" fontFamily={"IBM Plex Mono"} fontSize={"14px"} textColor={"white"} w={"350px"} h={"40px"} mb={"-10px"} mt={"40px"}>
+            <FormLabel htmlFor="email" fontFamily={"IBM Plex Mono"} fontSize={"14px"} textColor={"white"} w={"auto"} h={"40px"} mb={"-10px"} mt={"40px"}>
               Email address
             </FormLabel>
             <Input id="email" type="email" placeholder="Plese Enter Your Email" bgColor={"white"} fontSize={"12px"} />
           </FormControl>
-          <FormControl htmlFor={"Number"} fontFamily={"IBM Plex Mono"} fontSize={"14px"} textColor={"white"} w={"350px"} h={"40px"} mb={"-5px"} mt={"20px"}>
+          <FormControl htmlFor={"Number"} fontFamily={"IBM Plex Mono"} fontSize={"14px"} textColor={"white"} w={"auto"} h={"40px"} mb={"-5px"} mt={"20px"}>
             Number Phone
           </FormControl>
           <Input id="number" type={"number"} placeholder="your number" bgColor={"white"} fontSize={"12px"} mt={"-5px"} />
-          <FormControl htmlFor={"Number"} fontFamily={"IBM Plex Mono"} fontSize={"14px"} textColor={"white"} w={"350px"} h={"40px"} mb={"-5px"} mt={"20px"}>
+          <FormControl htmlFor={"Number"} fontFamily={"IBM Plex Mono"} fontSize={"14px"} textColor={"white"} w={"auto"} h={"40px"} mb={"-5px"} mt={"20px"}>
             Message
           </FormControl>
           <Textarea placeholder="your massage" bgColor={"white"} fontSize={"12px"} mt={"-5px"} />
-          <Button px={"24px"} py={"10px"} w={"400px"} h={"50px"} colorScheme={"#3F8E00;"} mt={"20px"} size={"md"} mb={"60px"}>
+          <Button px={"24px"} py={"10px"} w={{ base: "210px", md: "400px" }} h={"50px"} colorScheme={"#3F8E00;"} mt={"20px"} size={"md"} mb={"60px"}>
             <Text fontSize={"14px"} fontFamily={"IBM Plex Mono"}>
               Submit
             </Text>

@@ -45,29 +45,29 @@ function DrawerExample() {
 
           <DrawerBody>
             <VStack spacing="50px">
-              <Link href="/services">
+              <Link href="/CaseStudio">
                 <Text fontSize={"16px"} color="#fff">
-                  Services
+                  Case Studi
                 </Text>
               </Link>
-              <Link href="/howwework">
+              <Link href="/RecentWork">
                 <Text fontSize={"16px"} color="#fff">
-                  How We Work
+                  Recent Work
                 </Text>
               </Link>
-              <Link href="/projects">
+              <Link href="/Testimoni">
                 <Text fontSize={"16px"} color="#fff">
-                  Project
+                  Testimoni
                 </Text>
               </Link>
-              <Link href="/about">
+              <Link href="/Feedback">
                 <Text fontSize={"16px"} color="#fff">
                   About
                 </Text>
               </Link>
             </VStack>
 
-            <Link href="/contact">
+            <Link href="/Feedback">
               <Button
                 ml="80px"
                 mt="50px"
@@ -184,19 +184,19 @@ const Hero = () => {
         justifyContent={"center"}
       >
         <Box w={{ md: "538px" }} h={{ md: "247px" }}>
-          <Heading color={"white"} fontSize={"44px"} fontWeight={"800"} fontFamily={"Raleway"} mt={{ base: "2rem", md: "0" }}>
+          <Heading color={"white"} fontSize={{ base: "34px", md: "44px" }} fontWeight={"800"} ml={{ base: "20px", md: "0" }} fontFamily={"Raleway"} mt={{ base: "2rem", md: "0" }}>
             RISALDI MARDIANSYA
           </Heading>
-          <Text mt={"10px"} mb={"30px"} fontFamily={"IBM Plex Mono"} fontSize={"14px"} fontWeight={"400"} color={"#9C9C9C"}>
+          <Text mt={"10px"} mb={"30px"} fontFamily={"IBM Plex Mono"} fontSize={{ base: "12px", md: "14px" }} ml={{ base: "20px", md: "0" }} fontWeight={"400"} color={"#9C9C9C"}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </Text>
-          <Button px={"64px"} py={"21px"} bgColor={"#62BA1B"} size={"lg"} fontSize={"14px"} textColor={"white"}>
+          <Button px={{ base: "20px", md: "64px" }} py={"21px"} bgColor={"#62BA1B"} size={"lg"} fontSize={"14px"} textColor={"white"} ml={{ base: "20px", md: "0" }}>
             Let’s get started
           </Button>
         </Box>
-        <Image src="f3.png" w={"315px"} h={"300px"} borderRadius={"50%"} />
+        <Image src="f3.png" w={{ base: "200px", md: "315px" }} h={{ base: "auto", md: "300px" }} borderRadius={{ base: "35%", md: "50%" }} />
       </Flex>
-      <Text color={"white"} fontFamily={"IBM Plex Mono"} fontSize={"14px"} fontWeight={"400"} px={{ md: "95px" }}>
+      <Text color={"white"} fontFamily={"IBM Plex Mono"} fontSize={"14px"} fontWeight={"400"} px={{ md: "95px" }} ml={{ base: "20px", md: "0" }} mt={{ base: "10px", md: "0" }}>
         Worked with
       </Text>
       <Flex gap={{ base: "20px", md: "30px" }} px={{ lg: "15px", md: "5px" }} mt={{ lg: "50px", md: "20px" }} justifyContent={"center"}>
